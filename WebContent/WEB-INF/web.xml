@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <description>Description1</description>
+    <display-name>ViewServlet</display-name>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>coffe_crud.ViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/coffe_crud/ViewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Description2</description>
+    <display-name>InsertController</display-name>
+    <servlet-name>InsertController</servlet-name>
+    <servlet-class>coffe_crud.InsertController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertController</servlet-name>
+    <url-pattern>/coffe_crud/InsertController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Description3</description>
+    <display-name>DeleteController</display-name>
+    <servlet-name>DeleteController</servlet-name>
+    <servlet-class>coffe_crud.DeleteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteController</servlet-name>
+    <url-pattern>/coffe_crud/DeleteController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>Description3</description>
+    <display-name>UpdateController</display-name>
+    <servlet-name>UpdateController</servlet-name>
+    <servlet-class>coffe_crud.UpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateController</servlet-name>
+    <url-pattern>/coffe_crud/UpdateController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
