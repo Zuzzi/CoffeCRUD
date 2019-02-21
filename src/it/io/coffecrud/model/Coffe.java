@@ -1,4 +1,4 @@
-package coffe_crud;
+package it.io.coffecrud.model;
 
 public class Coffe {
 	private String cofName;
